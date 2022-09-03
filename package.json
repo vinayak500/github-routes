@@ -1,0 +1,20 @@
+{
+  "name": "github",
+  "version": "1.0.0",
+  "description": "github routing practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "github",
+    "repositries",
+    "stars",
+    "users"
+  ],
+  "author": "Vinayak Shetty",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
