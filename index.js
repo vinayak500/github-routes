@@ -2,7 +2,11 @@ const express = require('express');
 const app = express();
 const port = 8000;
 
+const expressLayouts = require('express-ejs-layouts');
 
+
+//set layout.ejs on all the pages using middleware
+app.use(expressLayouts);
 
 
 app.use('/' , require('./routes/index'));
