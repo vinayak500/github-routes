@@ -3,6 +3,7 @@ const app = express();
 const port = 8000;
 
 const expressLayouts = require('express-ejs-layouts');
+const db = require('./config/mongoose');
 
 
 //set layout.ejs on all the pages using middleware
